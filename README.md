@@ -1,1 +1,1 @@
-Created my first landing page
+Creating my first landing page with HTML and CSS
