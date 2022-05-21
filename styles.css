@@ -112,6 +112,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  width: 235px;
 }
 
 .info-subtext {
@@ -146,4 +147,47 @@ a {
 
 .quoted {
 font-weight: bold;
+text-align: right;
+}
+
+.signup-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 200px;
+}
+
+.signup-rect {
+  background-color: #3882F6;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.signup-rect .signup-header {
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+.signup-head {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.signup-subtext {
+  font-weight: lighter;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  font-weight: lighter;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
